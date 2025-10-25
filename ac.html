@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Anniversary 💖</title>
+  <link rel="stylesheet" href="ac.css" />
+</head>
+<body>
+  <audio id="bgMusic" autoplay loop>
+    <source src="love-song.mp3" type="audio/mpeg" />
+  </audio>
+
+  <!-- Animasi background -->
+  <div class="heart-bg" id="heartBg"></div>
+
+  <main class="container">
+    <div class="video-box">
+      <video id="loveVideo" autoplay muted loop playsinline>
+        <source src="26okt.mp4" type="video/mp4" />
+        Your browser does not support video playback.
+      </video>
+    </div>
+
+    <h1 class="title">💖 Our Love Journey 💖</h1>
+    <p class="sub">We've been together for</p>
+    <p class="date">❤️ 1 Mei 2024 ❤️</p>
+    <p class="next-anniv">Next Anniversary in</p>
+
+    <div id="countdown" class="countdown">
+      <div class="unit"><span id="days">0</span><small>Days</small></div>
+      <div class="unit"><span id="hours">0</span><small>Hours</small></div>
+      <div class="unit"><span id="minutes">0</span><small>Minutes</small></div>
+      <div class="unit"><span id="seconds">0</span><small>Seconds</small></div>
+    </div>
+
+    <button id="backBtn" class="btn">💌 Back to Love</button>
+  </main>
+
+  <script src="ac.js"></script>
+</body>
+</html>
