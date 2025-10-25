@@ -14,7 +14,7 @@ const yesBtn = document.getElementById("yesBtn");
 const noBtn = document.getElementById("noBtn");
 
 yesBtn.addEventListener("click", () => {
-  window.location.href = "../anniversary-countdown/ac.html";
+  window.location.href = "ac.html";
 });
 
 noBtn.addEventListener("mouseover", () => {
