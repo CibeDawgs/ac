@@ -8,7 +8,7 @@ const anniversary = new Date(`May 1, ${targetYear} 00:00:00`);
 if (now > anniversary) targetYear += 1;
 const targetDate = new Date(`May 1, ${targetYear} 00:00:00`).getTime();
 
-const BACK_PATH = "../love-Game/lg.html";
+const BACK_PATH = "lg.html";
 
 // countdown
 function updateCountdown() {
